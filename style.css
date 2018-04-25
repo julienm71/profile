@@ -1,0 +1,225 @@
+/*html, body {
+    width: 100%;
+}*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: #f0f0f0;
+}
+
+hr {
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #00171f;
+  height:100%;
+  text-align: center;
+  color: white;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #00171f;
+}
+
+#sidebar li {
+  border: 0px solid;
+  border-style: inset;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#sidebar li:hover {
+  border-bottom: 3px solid #e0fbfc;
+  border-style: inset;
+  background-color: #253237;
+}
+
+
+#sidebar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  color:white;
+}
+
+.credits-1 {
+  color:#3636ff;
+}
+
+.credits-2 {
+  color:red;
+}
+
+#page-content {
+
+}
+
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  border: 0px solid;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+  /*box-shadow: 0 0 3px #ccc;*/
+  background-color: #f9f9f9;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 0px solid #5757FF !important;
+  border-style: inset;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-bottom: 4px solid #5757FF !important;
+  border-style: inset;
+}
+
+.card:hover hr {
+  width: 25%;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-social:link, .btn-social:visited {
+  background-color: #5757FF;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-social:hover, .btn-social:active {
+  background-color: #3636ff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.btn-join:link, .btn-join:visited {
+  background-color: #ef233c;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-join:hover, .btn-join:active {
+  background-color: #d90429;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid #01baef;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+.inline-elements {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-elements > li {
+  display: inline-block;
+  margin: 0px 10px;
+  color: white;
+}
+
+.block-elements {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.block-elements {
+  display: block;
+  margin: 0px 10px;
+  color: white;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.table-img {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.table-img:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
